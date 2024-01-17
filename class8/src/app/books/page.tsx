@@ -12,7 +12,6 @@ interface IBook {
 }
 
 const BooksPage = async () => {
-    
     const response = await fetch(`${url}/books`, {
         cache: "force-cache"
     });
